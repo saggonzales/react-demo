@@ -1,8 +1,8 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import Home from './Home'
-import Roster from './Roster'
-import Schedule from './Schedule'
+import Home from './home'
+import Roster from './roster'
+import Schedule from './schedule'
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster

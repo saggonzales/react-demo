@@ -6,7 +6,7 @@ import { MessageRenderer } from './message';
 import { Labels } from './label';
 import { LabelsComposition } from './labelcomposition';
 import { Counter } from './counter';
-import App from './components/App';
+import App from './components/app';
 import { BrowserRouter } from 'react-router-dom'
 
 import '../css/style.css';
