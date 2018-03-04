@@ -6,6 +6,8 @@ import { MessageRenderer } from './message';
 import { Labels } from './label';
 import { LabelsComposition } from './labelcomposition';
 import { Counter } from './counter';
+import App from './components/App';
+import { BrowserRouter } from 'react-router-dom'
 
 import '../css/style.css';
 
@@ -24,3 +26,4 @@ render( <MessageComponent message="Hello!" />, document.getElementById("app"));
 //render( <Labels/>, document.getElementById("app"));
 //render( <LabelsComposition/>, document.getElementById("app"));
 //render( <Counter/>, document.getElementById("app"));
+//render(<BrowserRouter><App /></BrowserRouter>, document.getElementById("app"));
