@@ -22,6 +22,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(paths.SRC, 'index.html'),
+      favicon: 'src/assets/favicon.ico'
     }),
     new ExtractTextPlugin('style.bundle.css'), // CSS will be extracted to this bundle file
     new CleanWebpackPlugin([paths.DIST]),
@@ -48,7 +49,7 @@ module.exports = {
       },
       // File loader for image assets
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpg|gif|svg)$/,
         use: [
           'file-loader',
         ],
